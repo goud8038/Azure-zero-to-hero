@@ -82,11 +82,11 @@ spec:
     objects:  |
       array:
         - |
-          objectName: secret1             # Set to the name of your secret
+          objectName: vinod            # Set to the name of your secret
           objectType: secret              # object types: secret, key, or cert
           objectVersion: ""               # [OPTIONAL] object versions, default to latest if empty
         - |
-          objectName: key1                # Set to the name of your key
+          objectName: vinod              # Set to the name of your key
           objectType: key
           objectVersion: ""
     tenantId: "${IDENTITY_TENANT}"        # The tenant ID of the key vault
